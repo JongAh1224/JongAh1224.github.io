@@ -28,13 +28,13 @@ comments: true
 
 - 코드의 흐름을 분산시켜 더욱 효율적인 개발 가능
 - git branch (branch 이름) 을 통해 branch 생성  
- *user $ git branch <branch_name>*
+ *user $ git branch (branch_name)*
 - 현재 작업중인 branch를 전환  
- *user $ git checkout <branch_name>*
+ *user $ git checkout (ranch_name)*
 - 현재 작업중인 branch를 원하는 branch에 병합  
- *user $ git merge <branch_name>*
--git branch -d (branch 이름) 을 통해 branch 삭제  
- *user $ git branch -d <branch_name>*
+ *user $ git merge (branch_name)*
+- git branch -d (branch 이름) 을 통해 branch 삭제  
+ *user $ git branch -d (branch_name)*
 
 ## GitHub
 
