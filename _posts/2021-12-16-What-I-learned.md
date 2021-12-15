@@ -10,49 +10,31 @@ comments: true
 - Git이란 분산 버전관리 시스템이다
 - git <명령어>를 통해서 git을 관리
 - 현재 작업중인 디렉토리를 git 저장소로 지정하는 명령어
-'''
-user $ git init
-'''
+*user $ git init*
 
 ## Git 파일 상태
 
 - 현재 git 상태 확인
-'''shell
-user $ git status
-'''
+*user $ git status*
 - git에 변경사항 반영하기
 - example.py를 생성하고, 이를 commit에 반영하고 싶은 경우
-'''shell
-user $ git add example.py
-'''
+*user $ git add example.py*
 - 변경사항이 반영된 new commit 생성
-'''shell
-user $ git commit -m "add example.py"
-'''
+*user $ git commit -m "add example.py"*
 - commit 기록 확인하기
-'''shell
-user $ git log
-'''
+*user $ git log*
 
 ## Git Branch
 
 - 코드의 흐름을 분산시켜 더욱 효율적인 개발 가능
-- git branch <branch 이름> 을 통해 branch 생성
-'''shell
-user $ git branch <branch_name>
-'''
+- git branch <branch 이름> 을 통해 branch 생성  
+ *user $ git branch <branch_name>*
 - 현재 작업중인 branch를 전환
-'''shell
-user $ git checkout <branch_name>
-'''
+*user $ git checkout <branch_name>*
 - 현재 작업중인 branch를 원하는 branch에 병합
-'''shell
-user $ git merge <branch_name>
-'''
+*user $ git merge <branch_name>*
 -git branch -d <branch 이름> 을 통해 branch 삭제
-'''shell
-user $ git branch -d <branch_name>
-'''
+*user $ git branch -d <branch_name>*
 
 ## GitHub
 
